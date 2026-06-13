@@ -57,17 +57,13 @@
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience"
-              >Experience</a
-            >
+            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education"
-              >Education</a
-            >
+            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
@@ -76,14 +72,15 @@
             <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#publications"
-              >Publications</a
-            >
+            <a class="nav-link js-scroll-trigger" href="#publications">Publications</a>
           </li>
         </ul>
       </div>
     </nav>
+
     <div class="container-fluid p-0">
+
+      <!-- ABOUT -->
       <section
         class="resume-section p-3 p-lg-5 d-flex align-items-center"
         id="about"
@@ -94,10 +91,12 @@
             <span class="text-primary">Mandal</span>
           </h1>
           <div class="subheading mb-5">
-            Tempe · AZ, USA·
+            Tempe · AZ, USA ·
             <a href="mailto:pmpriyankmandal@gmail.com">pmpriyankmandal@gmail.com</a>
           </div>
-          <p class="lead mb-5">I'm a Computer Science Master's student at Arizona State University, set to graduate in May 2026 with a 4.22 GPA. With a strong foundation from my B.Tech in Artificial Intelligence at IIT Jodhpur, I've focused on building intelligent applications that solve real-world problems through AI and machine learning. Through internships at the University of Phoenix—where I deployed LLM support agents and automated data pipelines—and the University of Western Ontario, where I engineered multimodal disaster classifiers, I've developed a strong interest in innovative technologies. I'm actively seeking full-time roles in software development, AI integration, and data science, where I can contribute to meaningful projects while expanding my expertise in RAG systems, LLM applications, and scalable backend architecture.</p>
+          <p class="lead mb-5">
+            I'm a Computer Science graduate (M.S., May 2026, 4.0 GPA) from Arizona State University, with a B.Tech in Artificial Intelligence from IIT Jodhpur. I build intelligent, production-ready systems at the intersection of AI, backend engineering, and cloud infrastructure. My work spans LLM-powered applications, RAG pipelines, multimodal ML models, and scalable microservices — validated through roles at the University of Phoenix, Arizona State University, and the University of Western Ontario, as well as a published paper in IEEE TAI'25. I'm actively seeking full-time roles in software engineering, AI integration, and data science where I can contribute to high-impact products.
+          </p>
           <div class="social-icons">
             <a target="_blank" href="https://www.linkedin.com/in/priyank82/">
               <i class="fab fa-linkedin-in"></i>
@@ -105,16 +104,15 @@
             <a target="_blank" href="https://github.com/priyank-82">
               <i class="fab fa-github"></i>
             </a>
-            <!-- <a target="_blank" href="https://twitter.com/tejeshreddy__">
-              <i class="fab fa-twitter"></i>
-            </a> -->
-            <a href="https://drive.google.com/file/d/15elg0zQl5KvDt0sC0i26zSwhePx7kl4H/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/15elg0zQl5KvBt0sC0i26zSwhePx7kl4H/view?usp=sharing">
               <i class="far fa-file"></i>
             </a>
           </div>
         </div>
       </section>
       <hr class="m-0" />
+
+      <!-- EXPERIENCE -->
       <section
         class="resume-section p-3 p-lg-5 d-flex align-items-center justify-content-center"
         id="experience"
@@ -122,6 +120,26 @@
         <div class="w-100">
           <h2 class="mb-5">Experience</h2>
 
+          <!-- ASU Student Software Developer -->
+          <div
+            class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="resume-content">
+              <h3 class="mb-0">Arizona State University, USA</h3>
+              <div class="subheading mb-3">Student Software Developer · Part-Time</div>
+              <ul>
+                <li>Designed a GPT-4o based automated grading pipeline with LLM-generated feedback, reducing instructor workload by 65%.</li>
+                <li>Configured GitHub Actions CI/CD for automated assignment testing, processing 60+ student submissions weekly.</li>
+                <li>Built a Next.js and FastAPI system to track API costs across 200+ projects, preventing budget overruns.</li>
+                <li>Integrated Qdrant-based RAG for case studies, enabling semantic search across 100+ business strategy documents.</li>
+              </ul>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">August 2025 – May 2026</span>
+            </div>
+          </div>
+
+          <!-- University of Phoenix -->
           <div
             class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
           >
@@ -129,292 +147,110 @@
               <h3 class="mb-0">University of Phoenix, USA</h3>
               <div class="subheading mb-3">Application Engineer Intern</div>
               <ul>
-                <li>Spearheaded deployment of AWS Lambda workflows with S3 data pipelines and Terraform infrastructure, delivering automated data insights and accelerating learner and org-level reporting by 50%.</li>
-                <li>Built an internal PDF reporting tool using Next.js and React, boosting data accessibility for admins and cutting manual analysis time by 30%.</li>
-                <li>Implemented FastAPI microservices to automate job skills data extraction and course mapping, handling 500+ job postings daily and accelerating B2B course recommendation.</li>
-                <li>Deployed a Twilio-based LLM Support Agent using AWS Bedrock, automating inquiries and reducing student support response times by 35%.</li>
-                <li>Applied a feature-plus-test development approach, delivering Cypress end-to-end tests for all features to ensure reliability.</li>
+                <li>Deployed AWS Lambda workflows with S3 data pipelines and Terraform infrastructure, accelerating learner and org-level reporting by 50%.</li>
+                <li>Developed a Next.js learner stats reporting tool, reducing manual analysis time by 30% and improving admin data access.</li>
+                <li>Built FastAPI microservices to automate job skill extraction and B2B course recommendation, handling 500+ daily job postings.</li>
+                <li>Launched a RAG-based LLM support agent via Twilio and AWS Bedrock, reducing student support response times by 35%.</li>
+                <li>Delivered Cypress end-to-end tests for all 13 core new features using a Test-Driven Development approach.</li>
               </ul>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">May 2025 - August 2025</span>
+              <span class="text-primary">May 2025 – August 2025</span>
             </div>
           </div>
 
+          <!-- University of Western Ontario -->
           <div
             class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
           >
             <div class="resume-content">
               <h3 class="mb-0">University of Western Ontario, Canada</h3>
-              <div class="subheading mb-3">MITACS Globalink Intern</div>
+              <div class="subheading mb-3">MITACS Globalink Research Intern</div>
               <ul>
-                <li>Engineered a multi-modal disaster classification system analyzing 18,000+ tweets with both text and image data, deploying optimized ETL pipelines for large-scale social media ingestion and inference.</li>
-                <li>Evaluated ViT and CNN-based computer vision models alongside fine-tuned BERT and T5 architectures for NLP, integrating the architecture into a unified classification microservice with FastAPI.</li>
-                <li>Designed a feature-augmented XGBoost ensemble service for ground parameter evaluation, improving classification accuracy by 26% over baseline models.</li>
+                <li>Architected a scalable multi-modal disaster classification system analyzing 18,000+ tweets, deploying optimized ETL pipelines for large-scale social media ingestion and inference.</li>
+                <li>Evaluated ViT and CNN-based vision models alongside fine-tuned BERT and T5 architectures for NLP, integrating all components into a unified FastAPI microservice.</li>
+                <li>Engineered a feature-augmented XGBoost ensemble, improving classification accuracy by 26% over baseline models.</li>
                 <li>Led a team of 7 interns, implementing agile workflows, code reviews, and CI/CD practices to streamline experimentation.</li>
               </ul>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">May 2023 - August 2023</span>
+              <span class="text-primary">May 2023 – August 2023</span>
             </div>
           </div>
 
+          <!-- IIT Jodhpur Research -->
           <div
             class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
           >
             <div class="resume-content">
               <h3 class="mb-0">
-                <a href="https://sites.google.com/iitj.ac.in/dmishra/home" class="link">CSE Department @ IIT Jodhpur</a
-                >, Jodhpur, India
+                <a href="https://sites.google.com/iitj.ac.in/dmishra/home" class="link">CSE Department @ IIT Jodhpur</a>, Jodhpur, India
               </h3>
-              <div class="subheading mb-3">
-                Undergraduate Research Assistant
-              </div>
+              <div class="subheading mb-3">Undergraduate Research Assistant</div>
               <ul>
-                <li>
-                  <strong>Sobel Edge Filtered Video:</strong> Conceptualized utilising Sobel filtered video for activity recognition models, reducing FPGA - ADC power usage by 35%
-                </li>
-                <li>
-                  <strong>Vision Transformers & 3D-CNNs:</strong> Experimented on Vision Transformer (MViT) & 3D-CNNs, achieved 88% accuracy with the Spatio-Temporal S3D.
-                </li>
-                <li>
-                  <strong>Model Quantization:</strong> Explored Quantization (ONNX) & binary weights to compress model size up to ~32x for efficient deployment on FPGA.
-                </li>
-                <li>
-                  <strong>Kubernetes for Training on Cluster:</strong> Leveraged Kubernetes to conduct 100+ model experimentation runs, on the Nvidia DGX-A100 Cluster @ IIT Jodhpur.
-                </li>
+                <li><strong>Sobel Edge Filtered Video:</strong> Conceptualized using Sobel-filtered video for activity recognition models, reducing FPGA-ADC power usage by 35%.</li>
+                <li><strong>Vision Transformers & 3D-CNNs:</strong> Experimented with MViT and 3D-CNNs, achieving 88% accuracy with the Spatio-Temporal S3D model.</li>
+                <li><strong>Model Quantization:</strong> Explored ONNX quantization and binary weights to compress model size by up to ~32× for efficient FPGA deployment.</li>
+                <li><strong>Kubernetes for Cluster Training:</strong> Conducted 100+ model experimentation runs on the NVIDIA DGX-A100 Cluster at IIT Jodhpur.</li>
               </ul>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">September 2023 - May 2024</span>
+              <span class="text-primary">September 2023 – May 2024</span>
             </div>
           </div>
 
+          <!-- Tangli -->
           <div
             class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
           >
             <div class="resume-content">
               <h3 class="mb-0">
-                <a href="https://www.tangli.io/" class="link"
-                  >Tangli</a
-                >, (Remote) London, UK
+                <a href="https://www.tangli.io/" class="link">Tangli</a>, (Remote) London, UK
               </h3>
               <div class="subheading mb-3">Machine Learning Intern</div>
               <ul>
-                <li>
-                  <strong>Automatic Summarization:</strong> Conceptualized a tool using GPT-3 API and BERT for automated generation of virtual meeting highlights.
-                </li>
-                <li>
-                  <strong>Sentiment Analysis:</strong> Incorporated Sentiment Analysis on facial data & quantified user engagement, reducing unproductive meetings.
-                </li>
+                <li><strong>Automatic Summarization:</strong> Built a tool using GPT-3 and BERT to automatically generate virtual meeting highlights.</li>
+                <li><strong>Sentiment Analysis:</strong> Applied sentiment analysis on facial data to quantify user engagement, reducing unproductive meeting time.</li>
               </ul>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">September 2022 - November 2022</span>
+              <span class="text-primary">September 2022 – November 2022</span>
             </div>
           </div>
 
+        </div>
       </section>
       <hr class="m-0" />
+
+      <!-- PROJECTS -->
       <section
         class="resume-section p-3 p-lg-5 d-flex align-items-center"
         id="projects"
       >
         <div class="w-100">
           <h2 class="mb-5">Projects</h2>
-          <div class="card-group">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Efficient Video Activity Recognition</h5>
-                <p class="font-italic">
-                  Tech: Python, PyTorch, FPGA, OpenCV, Docker
-                </p>
-                <p class="card-text">
-                  Developed efficient models for activity recognition for FPGA, by integrating Sobel Edge Filtered video with binary model weights on Vision Transformer (MViT) & 3D-CNNs, achieving 88% recogntion accuracy, reducing model size by up to ~32x and minimizing ADC power usage by 35 %.
-                </p>
-                <a
-                  class="px-2 fa-lg li-ic"
-                  href="https://github.com/priyank-82/Binary-Neural-Networks"
-                >
-                  <i class="fab fa-github" aria-hidden="true"></i>
-                </a>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">
-                  Sync Chat: Real-time Chat Application
-                </h5>
-                <p class="font-italic">
-                  Tech:  MongoDB, ExpressJS, ReactJS, NodeJS, Socket.IO
-                </p>
-                <p class="card-text">
-                  A Real-time chat application built using the MERN stack (MongoDB, Express.js, React, and Node.js). It allows users to sign up, sign in, and chat with other users in real time. The app utilizes Socket.IO for real-time communication, JWT for authentication, and Tailwind CSS for UI components.
-                </p>
-                <a
-                  class="px-2 fa-lg li-ic"
-                  href="https://github.com/priyank-82/Real-Time-Chat-App"
-                >
-                  <i class="fab fa-github" aria-hidden="true"></i>
-                </a>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Personalized PDF Chatbot</h5>
-                <p class="font-italic">
-                  Tech: PyTorch, HuggingFace, NLP
-                </p>
-                <p class="card-text">
-                  Engineered a memory-efficient chatbot leveraging LoRA fine-tuning on Microsoft Phi-2 model, implementing 4-bit quantization techniques to achieve 75% memory reduction while maintaining only 0.9% trainable parameters (24M/2.7B), enabling scalable and responsive conversational AI interactions.
-                </p>
-                <a
-                  class="px-2 fa-lg li-ic"
-                  href="https://github.com/priyank-82/Personalized-GPT"
-                >
-                  <i class="fab fa-github" aria-hidden="true"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <br />
-          <!-- Group Start -->
-          <!-- Group End -->
-          <!-- Group Start -->
-          <div class="card-group">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Reddito - React Web Application</h5>
-                <p class="font-italic">
-                  Tech: ReactJS, TypeScript, Firebase, Redux
-                </p>
-                <p class="card-text">
-                  Developed a full-stack social media platform utilizing ReactJS and TypeScript, integrating Firebase backend with Redux state management to deliver community features including dynamic subreddit creation, post handling, and interactive user engagement and responsive interactions.
-                </p>
-                <a
-                  class="px-2 fa-lg li-ic"
-                  href="https://github.com/priyank-82/reddit-clone"
-                >
-                  <i class="fab fa-github" aria-hidden="true"></i>
-                </a>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Object Detection for Sandstorm Conditions</h5>
-                <p class="font-italic">
-                  Tech: PyTorch, OpenCV, GluonCV
-                </p>
 
-                <p class="card-text">
-                  Engineered an robust object detection system for sandstorm environments by implementing Zero-Shot Image Dehazing and Color Normalization pipeline , achieving 15% improvement in object localization and 11% enhancement in YOLOv3 mean Average Precision (mAP).
-                </p>
-                <a
-                  class="px-2 fa-lg li-ic"
-                  href="https://github.com/priyank-82/Enhancement-of-Computer-Vision-for-Sandstorm-Conditions"
-                >
-                  <i class="fab fa-github" aria-hidden="true"></i>
-                </a>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Amazon Prime Video Dashboard</h5>
-                <p class="font-italic">
-                  Tech: Python, Pandas, R, R-Shiny, Tableau
-                </p>
-                <p class="card-text">
-                  Developed an Amazon Prime Video analytics dashboard processing 8,000+ titles using Tableau and R-Shiny, implementing interactive visualizations for content metrics and viewer engagement patterns, achieving streamlined insights through temporal analysis and trends.
-                </p>
-                <a
-                  class="px-2 fa-lg li-ic"
-                  href="https://riyanshujain.shinyapps.io/OTT_DASHBOARD/"
-                >
-                  <i class="fab fa-github" aria-hidden="true"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <br />
-          <!-- Group End -->
-          <!-- Group Start -->
-
+          <!-- Row 1 -->
           <div class="card-group">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Distributed Restaurant Management System</h5>
-                <p class="font-italic">
-                  Tech: PySpark, PyTorch, SQL
-                </p>
+                <h5 class="card-title">DocOracle</h5>
+                <p class="font-italic">Tech: Next.js, FastAPI, PostgreSQL + pgvector, Groq, AWS, Terraform</p>
                 <p class="card-text">
-                  Developed a distributed restaurant management system using PySpark and PyTorch, implementing federated recommender models achieving 87% accuracy, optimizing database schema through 3NF and fragmentation, reducing query time from 2.8s to 1.9s.
+                  Unified pgvector and Groq across a Next.js/FastAPI stack to enable semantic document Q&amp;A at sub-2s latency. Wired a 7-service AWS infrastructure via Terraform and containerized ingestion via ECR, supporting 500+ PDF workflows.
                 </p>
-                <a
-                  class="px-2 fa-lg li-ic"
-                  href="https://github.com/priyank-82/Restaurant-fed"
-                >
+                <a class="px-2 fa-lg li-ic" href="https://github.com/priyank-82">
                   <i class="fab fa-github" aria-hidden="true"></i>
                 </a>
               </div>
             </div>
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">CUBIX - Visual 3x3 Cube Solver</h5>
-                <p class="font-italic">Tech: SciPy, NumPy, Pygame, Openpyxl</p>
-                <p class="card-text">
-                  Developed a 2D Rubik's Cube visualization system using Pygame and NumPy, implementing multiple solving algorithms including A* and IDA*, featuring interactive controls and automated solution animations, achieving efficient algorithm comparison through performance analysis.
-                </p>
-                <a
-                  class="px-2 fa-lg li-ic"
-                  href="https://github.com/priyank-82/CUBIX-AI-Project"
-                >
-                  <i class="fab fa-github" aria-hidden="true"></i>
-                </a>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">
-                  Speech Emotion Recognition
-                </h5>
-                <p class="font-italic">Tech: Keras, Sklearn, Pandas, Streamlit</p>
-
-                <p class="card-text">
-                  Developed a speech emotion recognition system using CNN-LSTM and MFCC feature extraction, implementing real-time audio processing with spectral analysis and multi-head attention mechanisms for emotion classification, achieving 95% accuracy through optimized model tuning.
-                </p>
-                <a
-                  class="px-2 fa-lg li-ic"
-                  href="https://github.com/priyank-82/Speech_Emotion_Recognition"
-                >
-                  <i class="fab fa-github" aria-hidden="true"></i>
-                </a>
-              </div>
-            </div>
-            <!-- <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Vehicle Route Tracker</h5>
-                <p class="font-italic">Tech: HTML, JS, CSS, PHP</p>
-                <p class="card-text">
-                  A web application to manage the attendance of a class and
-                  obtain a detailed graphical analysis of the attendance.
-                </p>
-                <a
-                  class="px-2 fa-lg li-ic"
-                  href="https://github.com/tejeshreddy/VMS"
-                >
-                  <i class="fab fa-github" aria-hidden="true"></i>
-                </a>
-              </div>
-            </div> -->
-          </div>
-          <br />
-          <!-- Group End -->
-          <div class="card-group">
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Meet-Minding: Meeting Transcript Analyzer</h5>
-                <p class="font-italic">Tech: Python, AWS Bedrock, FastMCP</p>
-                <p class="card-text">Constructed a MCP server with AWS Bedrock Nova-lite agent, to automate meeting transcript analysis and task tracking. Integrated a Flask architecture with S3 context caching, achieving 95% accuracy in task extraction with a 2.5s response time.</p>
+                <p class="font-italic">Tech: Python, AWS Bedrock, FastMCP, Flask, S3</p>
+                <p class="card-text">
+                  Built an MCP server backed by AWS Bedrock Nova-lite to automate meeting transcript analysis and task tracking. Integrated Flask with S3 context caching, achieving 95% accuracy in task extraction with a 1.5s response time.
+                </p>
                 <a class="px-2 fa-lg li-ic" href="https://github.com/priyank-82/Meet-Minding">
                   <i class="fab fa-github" aria-hidden="true"></i>
                 </a>
@@ -422,9 +258,11 @@
             </div>
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Skills Snapshot: Skills Analysis Platform</h5>
-                <p class="font-italic">Tech: FastAPI, React, Groq LLM API</p>
-                <p class="card-text">Engineered a full-stack skills analytics platform integrating Groq for intelligent insights, reducing analysis time by 70%. Architected a microservices system with FastAPI backend parsing 100K+ jobs extracting skills and mapping courses.</p>
+                <h5 class="card-title">Skills Snapshot: Skills Analysis Platform <span class="badge badge-warning" style="font-size:0.65rem;">🏆 Hackathon Winner</span></h5>
+                <p class="font-italic">Tech: FastAPI, PostgreSQL, React, Groq LLM API</p>
+                <p class="card-text">
+                  Won the UOPX Intern Hackathon (Innovation &amp; Impact) with a full-stack skills analytics platform integrating Groq, reducing analysis time by 70%. Architected FastAPI microservices parsing 100K+ job postings to extract skills and map UOPX courses.
+                </p>
                 <a class="px-2 fa-lg li-ic" href="#">
                   <i class="fab fa-github" aria-hidden="true"></i>
                 </a>
@@ -432,10 +270,135 @@
             </div>
           </div>
           <br />
+
+          <!-- Row 2 -->
+          <div class="card-group">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Efficient Video Activity Recognition</h5>
+                <p class="font-italic">Tech: Python, PyTorch, FPGA, OpenCV, Docker</p>
+                <p class="card-text">
+                  Developed efficient FPGA activity recognition models by integrating Sobel Edge Filtered video with binary model weights on MViT and 3D-CNNs — achieving 88% accuracy, ~32× model compression, and 35% reduction in ADC power usage.
+                </p>
+                <a class="px-2 fa-lg li-ic" href="https://github.com/priyank-82/Binary-Neural-Networks">
+                  <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Personalized PDF Chatbot</h5>
+                <p class="font-italic">Tech: PyTorch, HuggingFace, NLP</p>
+                <p class="card-text">
+                  Engineered a memory-efficient chatbot using LoRA fine-tuning on Microsoft Phi-2 with 4-bit quantization, achieving 75% memory reduction while keeping only 0.9% trainable parameters (24M/2.7B) for scalable conversational AI.
+                </p>
+                <a class="px-2 fa-lg li-ic" href="https://github.com/priyank-82/Personalized-GPT">
+                  <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Sync Chat: Real-time Chat Application</h5>
+                <p class="font-italic">Tech: MongoDB, ExpressJS, ReactJS, NodeJS, Socket.IO</p>
+                <p class="card-text">
+                  Full-stack real-time chat app built on the MERN stack using Socket.IO for live messaging, JWT for authentication, and Tailwind CSS for a responsive UI.
+                </p>
+                <a class="px-2 fa-lg li-ic" href="https://github.com/priyank-82/Real-Time-Chat-App">
+                  <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <br />
+
+          <!-- Row 3 -->
+          <div class="card-group">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Object Detection for Sandstorm Conditions</h5>
+                <p class="font-italic">Tech: PyTorch, OpenCV, GluonCV</p>
+                <p class="card-text">
+                  Built a robust object detection system for sandstorm environments using Zero-Shot Image Dehazing and Color Normalization, improving object localization by 15% and YOLOv3 mAP by 11%.
+                </p>
+                <a class="px-2 fa-lg li-ic" href="https://github.com/priyank-82/Enhancement-of-Computer-Vision-for-Sandstorm-Conditions">
+                  <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Distributed Restaurant Management System</h5>
+                <p class="font-italic">Tech: PySpark, PyTorch, SQL</p>
+                <p class="card-text">
+                  Developed a distributed restaurant management system with a federated recommender model (87% accuracy), optimizing the DB schema via 3NF and fragmentation, reducing query time from 2.8s to 1.9s.
+                </p>
+                <a class="px-2 fa-lg li-ic" href="https://github.com/priyank-82/Restaurant-fed">
+                  <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Speech Emotion Recognition</h5>
+                <p class="font-italic">Tech: Keras, Sklearn, Pandas, Streamlit</p>
+                <p class="card-text">
+                  Built a CNN-LSTM speech emotion recognition system using MFCC feature extraction and multi-head attention mechanisms, achieving 95% accuracy through optimized model tuning with real-time audio processing.
+                </p>
+                <a class="px-2 fa-lg li-ic" href="https://github.com/priyank-82/Speech_Emotion_Recognition">
+                  <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <br />
+
+          <!-- Row 4 -->
+          <div class="card-group">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Reddito – React Web Application</h5>
+                <p class="font-italic">Tech: ReactJS, TypeScript, Firebase, Redux</p>
+                <p class="card-text">
+                  Full-stack Reddit clone built with ReactJS and TypeScript, integrating a Firebase backend with Redux state management — supporting dynamic subreddit creation, post handling, and responsive user engagement.
+                </p>
+                <a class="px-2 fa-lg li-ic" href="https://github.com/priyank-82/reddit-clone">
+                  <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Amazon Prime Video Dashboard</h5>
+                <p class="font-italic">Tech: Python, Pandas, R, R-Shiny, Tableau</p>
+                <p class="card-text">
+                  Analytics dashboard processing 8,000+ Prime Video titles in Tableau and R-Shiny, with interactive visualizations for content metrics, viewer engagement patterns, and temporal trend analysis.
+                </p>
+                <a class="px-2 fa-lg li-ic" href="https://riyanshujain.shinyapps.io/OTT_DASHBOARD/">
+                  <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">CUBIX – Visual 3×3 Cube Solver</h5>
+                <p class="font-italic">Tech: SciPy, NumPy, Pygame, Openpyxl</p>
+                <p class="card-text">
+                  2D Rubik's Cube visualizer built with Pygame and NumPy, implementing A* and IDA* solving algorithms with interactive controls and automated solution animations for comparative performance analysis.
+                </p>
+                <a class="px-2 fa-lg li-ic" href="https://github.com/priyank-82/CUBIX-AI-Project">
+                  <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <br />
+
         </div>
       </section>
       <hr class="m-0" />
 
+      <!-- EDUCATION -->
       <section
         class="resume-section p-3 p-lg-5 d-flex align-items-center"
         id="education"
@@ -448,70 +411,47 @@
           >
             <div class="resume-content">
               <h3 class="mb-0">Arizona State University, Tempe, AZ</h3>
-              <div class="subheading mb-3">
-                Masters of Science (MS) - Computer Science
-              </div>
-              <i
-                ><b>Relevant Courses:</b> Knowledge Representation & Reasoning, Statistical Machine Learning, Information Assurance & Security</i
-              >
+              <div class="subheading mb-3">Master of Science – Computer Science</div>
+              <i><b>Relevant Courses:</b> Knowledge Representation &amp; Reasoning, Statistical Machine Learning, Information Assurance &amp; Security</i>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">Expected Graduation: May 2026</span>
-              <div><b>GPA:</b> 4.0/4.0</div>
+              <span class="text-primary">Graduated: May 2026</span>
+              <div><b>GPA:</b> 4.0 / 4.0</div>
             </div>
           </div>
+
           <div
             class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
           >
             <div class="resume-content">
-              <h3 class="mb-0">Indian Institute of Technology (IIT), Jodhpur, India</h3>
-              <div class="subheading mb-3">Bachelor of Technology - Artificial Intelligence (Rank: <b>6</b>/57)</div>
-              <i
-                ><b>Relevant Courses:</b> Data Structures and Algorithms, Statistics, Probability & Stochastic Processes,
-                Computer Networks, Unix and Shell Programming, AI, Deep Learning, Design & Analysis of Algorithms</i
-              >
+              <h3 class="mb-0">Indian Institute of Technology (IIT) Jodhpur, India</h3>
+              <div class="subheading mb-3">Bachelor of Technology – Artificial Intelligence &nbsp;(Rank: <b>6</b> / 57)</div>
+              <i><b>Relevant Courses:</b> Data Structures &amp; Algorithms, Statistics, Probability &amp; Stochastic Processes, Computer Networks, Unix &amp; Shell Programming, AI, Deep Learning, Design &amp; Analysis of Algorithms</i>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">Graduated: May 2024</span>
-              <div><b>GPA:</b> 8.00/10.00</div>
+              <div><b>GPA:</b> 8.0 / 10.0</div>
             </div>
           </div>
 
-          <!-- <div
-            class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="resume-content">
-              <h3 class="mb-0">Pragathi PU College</h3>
-              <div class="subheading mb-3">Karnataka PU Board</div>
-
-              
-              <div>Science Stream (Aggregate: 86.67%)</div>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">Graduated: July 2015</span>
-            </div>
-          </div> -->
           <div
             class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
           >
             <div class="resume-content">
               <h3 class="mb-0">Narayana Junior College</h3>
-              <div class="subheading mb-3">
-                Secondary School Certificate
-              </div>
-              <i
-                ><b>Relevant Courses:</b> Physics, Chemistry,
-                Mathematics</i
-              >
-              <!-- <div>Aggregate: 84.67%</div> -->
+              <div class="subheading mb-3">Secondary School Certificate</div>
+              <i><b>Relevant Courses:</b> Physics, Chemistry, Mathematics</i>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">Graduated: July 2020</span>
             </div>
           </div>
+
         </div>
       </section>
       <hr class="m-0" />
+
+      <!-- SKILLS -->
       <section
         class="resume-section p-3 p-lg-5 d-flex align-items-center"
         id="skills"
@@ -520,77 +460,47 @@
           <h2 class="mb-5">Skills</h2>
           <div class="subheading mb-3">Programming Languages &amp; Tools</div>
           <ul class="list-inline dev-icons">
-            <li class="list-inline-item">
-              <i class="fas fa-flask"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fas fa-server"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-docker"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-js"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-node-js"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-react"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fas fa-snowflake"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-python"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-aws"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-r-project"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fas fa-chart-bar"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fas fa-file-excel"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-java"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-github"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-linux"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fas fa-database"></i>
-            </li>
+            <li class="list-inline-item"><i class="fas fa-flask"></i></li>
+            <li class="list-inline-item"><i class="fas fa-server"></i></li>
+            <li class="list-inline-item"><i class="fab fa-docker"></i></li>
+            <li class="list-inline-item"><i class="fab fa-js"></i></li>
+            <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+            <li class="list-inline-item"><i class="fab fa-react"></i></li>
+            <li class="list-inline-item"><i class="fas fa-snowflake"></i></li>
+            <li class="list-inline-item"><i class="fab fa-python"></i></li>
+            <li class="list-inline-item"><i class="fab fa-aws"></i></li>
+            <li class="list-inline-item"><i class="fab fa-r-project"></i></li>
+            <li class="list-inline-item"><i class="fas fa-chart-bar"></i></li>
+            <li class="list-inline-item"><i class="fas fa-file-excel"></i></li>
+            <li class="list-inline-item"><i class="fab fa-java"></i></li>
+            <li class="list-inline-item"><i class="fab fa-github"></i></li>
+            <li class="list-inline-item"><i class="fab fa-linux"></i></li>
+            <li class="list-inline-item"><i class="fas fa-database"></i></li>
           </ul>
-          <div class="subheading mb-3">Workflow</div>
+          <div class="subheading mb-3">Technical Stack</div>
           <ul class="fa-ul mb-0">
             <li>
               <i class="fa-li fa fa-circle"></i>
-              <b>Programming/Scripting Languages:</b> Python, R, C/C++, C#, Java, JavaScript, TypeScript, SQL, Bash / Shell, MATLAB
+              <b>Languages:</b> Python, Java, C/C++, JavaScript, TypeScript, SQL, R, Bash / Shell, MATLAB
             </li>
             <li>
               <i class="fa-li fa fa-circle"></i>
-              <b>Tools:</b> MySQL, Docker, Kubernetes,Py Spark, MongoDB, Hadoop, Power BI, Tableau, Django, Tableau, NoSQL, Git, PostgreSQL, AWS (EC2, S3)
+              <b>Frameworks &amp; Libraries:</b> React, Next.js, Node.js, Django, Flask, FastAPI, LangChain, FastMCP, PyTorch, TensorFlow-Keras, HuggingFace, Scikit-Learn, Pandas, NumPy, SciPy, XGBoost, OpenCV, PySpark
             </li>
             <li>
               <i class="fa-li fa fa-circle"></i>
-              <b>Frameworks & Libraries:</b> Tensorflow-Keras, Pytorch, Hugging Face, OpenCV, SKLearn, Pandas, SciPy, Flask, React, NumPy, XGBoost
+              <b>Tools &amp; Databases:</b> PostgreSQL (pgvector), MongoDB, MySQL, Qdrant, AWS (EC2, S3, Lambda, Bedrock), GCP, Git, Cypress, Power BI, Tableau
             </li>
             <li>
               <i class="fa-li fa fa-circle"></i>
-              <b>Web-Development Tools:</b> ReactJS, NextJS, Flask, Bootstrap, NodeJS, REST APIs, Django, HTML/CSS, Selenium
+              <b>DevOps &amp; Infrastructure:</b> Docker, Kubernetes, Terraform, Jenkins, GitHub Actions, CI/CD, Linux
             </li>
           </ul>
         </div>
       </section>
       <hr class="m-0" />
+
+      <!-- AWARDS -->
       <section
         class="resume-section p-3 p-lg-5 d-flex align-items-center"
         id="awards"
@@ -600,29 +510,31 @@
           <ul class="fa-ul mb-0">
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
+              <b>UOPX Intern Hackathon 2025</b> – Won the Innovation &amp; Impact category with the Skills Snapshot project at the University of Phoenix intern hackathon.
+            </li>
+            <br />
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
               <b>MITACS 2023</b> |
-              <a
-                href="https://drive.google.com/file/d/1AElda_8KxgVRA702LmvMygzXYIHApaG-/view?usp=sharing"
-                class="link"
-              >
-                Certificate of Completion</a
-              >
-              - Awarded prestigious research fellowship out of 0.2 million candidates, for funded research in Canada
+              <a href="https://drive.google.com/file/d/1AElda_8KxgVRA702LmvMygzXYIHApaG-/view?usp=sharing" class="link">Certificate of Completion</a>
+              – Awarded a $6,000 prestigious research fellowship out of 0.2 million candidates for funded research in Canada.
             </li>
             <br />
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
-              <b>JEE Advanced 2020</b> - Top 0.1% Percentile of 1.1 million candidates appearing for the competitive exam in 2020
+              <b>JEE Advanced 2020</b> – Top 0.1% out of 1.1 million candidates, gaining admission to one of India's top 15 engineering institutes.
             </li>
             <br />
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
-              <b>Kaggle Knight</b> - Won the ML hackathon hosted by IIT Jodhpur during the technical fest Prometeo'23
+              <b>Kaggle Knight</b> – Won the ML hackathon hosted by IIT Jodhpur during the technical fest Prometeo '23.
             </li>
           </ul>
         </div>
       </section>
       <hr class="m-0" />
+
+      <!-- PUBLICATIONS -->
       <section
         class="resume-section p-3 p-lg-5 d-flex align-items-center"
         id="publications"
@@ -632,60 +544,33 @@
           <ul class="fa-ul mb-0">
             <li>
               <i class="fa-li fa fa-paperclip"></i>
-              <b
-                ><a
-                  target="_blank"
-                  href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76"
-                  >IEEE TCSVT 2024</a
-                ></b
-              >: (Under Review) -
-              <i
-                >"Efficient Activity Recognition with Sparsely Read CMOS Image Sensors".</i
-              >
+              <b><a target="_blank" href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76">IEEE TAI 2025</a></b> –
+              <i>"Efficient Activity Recognition with Sparsely Read CMOS Image Sensors."</i>
             </li>
+            <br />
             <li>
               <i class="fa-li fa fa-paperclip"></i>
-              <b
-                ><a
-                  target="_blank"
-                  href="https://doi.org/10.1007/s11069-023-06257-7"
-                  >Natural Hazards 2023</a
-                ></b
-              >: -
-              <i
-                >"Peak ground acceleration prediction using ML for the seismically hazardous zone".</i
-              >
+              <b><a target="_blank" href="https://doi.org/10.1007/s11069-023-06257-7">Natural Hazards 2023</a></b> –
+              <i>"Peak ground acceleration prediction using ML for the seismically hazardous zone."</i>
             </li>
+            <br />
             <li>
               <i class="fa-li fa fa-paperclip"></i>
-              <b
-                ><a
-                  target="_blank"
-                  href="https://doi.org/10.57757/IUGG23-0230"
-                  >IUGG, Berlin 2023</a
-                ></b
-              >: -
-              <i
-                >"Ground motion attenuation model for seismically highly hazardous Indian zones".</i
-              >
+              <b><a target="_blank" href="https://doi.org/10.57757/IUGG23-0230">IUGG, Berlin 2023</a></b> –
+              <i>"Ground motion attenuation model for seismically highly hazardous Indian zones."</i>
             </li>
+            <br />
             <li>
               <i class="fa-li fa fa-paperclip"></i>
-              <b
-                ><a
-                  target="_blank"
-                  href="https://geology.magnusconferences.com/uploads/pdfs/tentative-program.pdf"
-                  >Geology, Canada 2023</a
-                ></b
-              >: -
-              <i
-                >"PGA prediction for India using gradient boosting XGBoost algorithm".</i
-              >
+              <b><a target="_blank" href="https://geology.magnusconferences.com/uploads/pdfs/tentative-program.pdf">Geology, Canada 2023</a></b> –
+              <i>"PGA prediction for India using gradient boosting XGBoost algorithm."</i>
             </li>
           </ul>
         </div>
       </section>
+
     </div>
+
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
